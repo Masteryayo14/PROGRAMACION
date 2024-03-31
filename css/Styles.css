@@ -1,88 +1,119 @@
+/* Estilos básicos */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
     color: #333;
     margin: 0;
     padding: 0;
-}
-
-.container {
+  }
+  
+  .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-header {
+  }
+  
+  header {
     background-color: #26764af6;
     color: #fff;
     padding: 20px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
     padding: 0;
-}
-
-nav li {
+  }
+  
+  nav li {
     display: inline-block;
     margin-right: 20px;
-}
-
-nav a {
+  }
+  
+  nav a {
     color: #fff;
     text-decoration: none;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     color: #ffcc00;
-}
-
-#contact-info {
+  }
+  
+  #contact-info {
     text-align: right;
     /* Alinea los datos a la derecha */
     font-weight: bold;
-}
-
-#content {
+  }
+  
+  #content {
     padding: 20px 0;
-}
-
-#content p {
+  }
+  
+  #content p {
     font-size: 16px;
     line-height: 1.6;
-}
-
-h2 {
+  }
+  
+  h2 {
     color: #1caa9c;
     margin-bottom: 10px;
-}
-
-ul {
+  }
+  
+  ul {
     padding-left: 20px;
-}
-
-ul li {
+  }
+  
+  ul li {
     margin-bottom: 8px;
-}
-
-#video-games img {
+  }
+  
+  #video-games img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 20px auto;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-footer {
+  }
+  
+  footer {
     background-color: #009688;
     color: #fff;
     padding: 20px;
     text-align: center;
     border-radius: 0 0 10px 10px;
-}
+  }
+  
+  /* Estilos para la tabla */
+  
+  .halo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+  }
+  
+  .halo-table caption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .halo-table th, .halo-table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .halo-table th {
+    background-color: #1caa9c; /* Verde para las cabeceras */
+    color: #fff;
+  }
+  
+  .halo-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
